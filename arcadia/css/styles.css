@@ -1,0 +1,366 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+h1,
+h2,
+h3,
+hr {
+  color: #1b5b33;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #00bf63;
+}
+
+a:hover {
+  color: #fff;
+}
+
+hr {
+  border: solid 2px;
+  width: 75%;
+  margin: auto;
+}
+
+header {
+  padding: 1%;
+  background: #00bf63;
+}
+
+header img {
+  max-width: 150px;
+}
+
+nav {
+  float: right;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item:last-child {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 0px 5px;
+  text-align: center;
+}
+
+.nav-item:last-child:hover {
+  background-color: white;
+}
+
+svg {
+  vertical-align: text-top;
+}
+
+.navbar-nav {
+  padding-top: 1rem !important;
+}
+
+.nav-link:hover {
+  color: #1b5b33;
+}
+
+.main-content {
+  padding: 50px 0px !important;
+  animation: 750ms goBottom;
+}
+
+.navbar {
+  animation: 750ms goLeft;
+}
+
+@keyframes goLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes goBottom {
+  0% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.avis-block {
+  padding: 50px 0px;
+}
+
+.habitats-block img {
+  margin-bottom: 10px;
+}
+
+.habitats-img img {
+  max-width: 600px;
+}
+
+footer {
+  padding: 50px 0px;
+  height: auto;
+  background: #1b5b33;
+  color: white;
+  margin-top: 25px;
+}
+
+footer a {
+  text-align: center;
+  color: #c0ebca !important;
+}
+
+footer a:hover {
+  color: #fff !important;
+}
+
+footer .nav-link {
+  padding: 10px;
+}
+
+.description {
+  text-align: center;
+  margin: auto;
+  margin: 50px 0px 25px 0px;
+}
+
+.content-block {
+  margin-bottom: 50px;
+}
+
+.content-block img {
+  max-width: auto;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content-form {
+  padding: 9% 0%;
+}
+
+.content-footer {
+  padding: 50px;
+}
+
+.copyright {
+  padding-bottom: 2px;
+}
+
+.table img {
+  max-width: 400px;
+}
+
+table {
+  --bs-table-hover-bg: #c0ebca !important;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*Carousel home*/
+.carousel,
+.carousel-inner,
+.carousel-item {
+  max-height: 90vh;
+}
+
+.carousel-caption {
+  right: 0%;
+  left: 5%;
+  color: #fff;
+  text-align: left;
+  bottom: 5%;
+  color: white;
+  font-size: 30px;
+  width: 50%;
+}
+
+.carousel-caption h2 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.carousel img {
+  filter: brightness(75%);
+}
+
+.carousel button:hover {
+  background: none;
+}
+
+@media (max-width: 980px) {
+  .carousel-caption {
+    font-size: 20px;
+    width: 45%;
+  }
+  .carousel-caption h2 {
+    font-size: 40px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------
+/*CSS admin*/
+.header-admin nav > button > a {
+  text-decoration: none;
+}
+.dashboard {
+  padding: 50px 50px 150px 50px;
+}
+
+.bloc-dashboard {
+  text-align: center;
+}
+.bloc-dashboard .btn-lg {
+  padding: 20px;
+  margin: 15px;
+}
+.dashboard h1 {
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.dashboard button {
+  min-width: 300px;
+}
+.dashboard button a {
+  text-decoration: none;
+  color: white;
+}
+.dashboard button:hover {
+  scale: 1.02;
+  transition: 0.2s;
+}
+
+.btn-deconnect:hover {
+  background-color: #1b5b33;
+}
+
+.deconnect {
+  padding: 50px 0px;
+}
+.deconnect > h2,
+.deconnect > button {
+  text-align: center;
+}
+
+.deconnect > button > a {
+  text-decoration: none;
+  color: white;
+}
+
+/*-----------------------------------------------------------------------------------
+/*formulaire CSS commentaires(home) + contact + connexion */
+
+#formulaire div,
+textarea,
+button,
+fieldset {
+  margin: 1% 0%;
+}
+
+fieldset {
+  padding: 2%;
+  border: 2px #00bf63 solid;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 1.1em;
+  margin-right: 1em;
+}
+
+#email-connect,
+#password-connect,
+#form-nm,
+#form-fnm,
+#form-email,
+#form-subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input {
+  flex-grow: 1;
+  font-size: 1em;
+  border: 1px #00bf63 solid;
+  border-radius: 3px;
+  padding: 0.2%;
+}
+
+#form-fieldset textarea {
+  width: 100%;
+  font-size: 1em;
+  flex-grow: 0.9em;
+  border-radius: 5 px;
+  border: 1px #00bf63 solid;
+  padding: 1%;
+  border-radius: 3px;
+}
+
+button,
+#connexion {
+  border-radius: 3px;
+  background-color: white;
+  color: #00bf63;
+  border: solid 1px #00bf63;
+  padding: 0.7em 0.7em;
+  font-size: 1em;
+}
+
+button:hover,
+#connexion:hover {
+  background-color: #00bf63;
+  transition-duration: 0.5s;
+  color: white;
+}
+
+/*Formulaire d'envoi de commentaires*/
+
+#formulaire {
+  color: #1b5b33;
+}
+
+.form-com {
+  border-radius: 3px;
+  box-shadow: 15px 15px 15px 5px rgb(0, 0, 0, 0.2) !important;
+}
+.form-com button {
+  background-color: #fff;
+  color: #1b5b33;
+}
+.form-com button:hover {
+  background-color: #00bf63;
+  transition-duration: 0.5s;
+  color: white;
+}
+
+#form-fieldset textarea::placeholder {
+  color: #1b5b34c1 !important;
+}
+
+/*media queries*/
+
+@media (max-width: 760px) {
+  header img {
+    max-width: 100px;
+    padding: 10px 0px 0px 10px;
+  }
+}

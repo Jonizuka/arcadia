@@ -15,7 +15,7 @@
     <div class="row justify-content-center deconnect">
       <h2>Vous êtes bien déconnecté</h2>
         <button type="button" class="btn btn-success btn-md col-sm-4 col-md-2 center-block">
-        <a href="../front/index.php">Retour à la page d'accueil</a>
+        <a href="../front/accueil.php">Retour à la page d'accueil</a>
         </button>
     </div>
 <?php session_destroy(); ?>

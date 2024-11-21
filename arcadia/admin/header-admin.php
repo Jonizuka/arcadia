@@ -1,5 +1,5 @@
 <header class="header-admin">
-    <a href="../front/accueil.php"><img src="../images/logo-arcadia.png" /></a>
+    <a href="../front/index.php"><img src="../images/logo-arcadia.png" /></a>
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container">
         <nav>

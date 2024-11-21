@@ -1,4 +1,3 @@
-
  <header class="sticky-top site-header">
     <a href="./accueil.php"><img src="../images/logo-arcadia.png" /></a>
       <nav class="navbar navbar-expand-md navbar-dark">
@@ -9,7 +8,7 @@
           </button>
         <div class="collapse navbar-collapse" id="n_bar">
           <ul class="navbar-nav">
-            <li class="nav-item active"><a class="nav-link" href="./accueil.php">Accueil</a></li>
+            <li class="nav-item active"><a class="nav-link" href="./index.php">Accueil</a></li>
             <li class="nav-item"><a class="nav-link" href="./services.php">Services</a></li>
             <li class="nav-item"><a class="nav-link" href="./habitats.php">Habitats</a></li>
             <li class="nav-item"><a class="nav-link" href="./contact.php">Contact</a></li>

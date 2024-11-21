@@ -55,7 +55,7 @@ vétérinaire :
 Page d'accueil : http://localhost/ARCADIA/front/accueil.php
 
 - slider
-- Trois visuels pour détailler succintement les prestations du zoo (bouton non fonstionnel pour les animaux)
+- Trois visuels pour détailler succintement les prestations du zoo (bouton non fonctionnel pour les animaux)
 - Les commentaires déjà validés
 - un formulaire pour laisser un commentaire
 
@@ -77,9 +77,9 @@ Page connexion
 
 - Connexion opérationnelle avec accès mentionnés plus haut (4)
 
-Back office :
+Back-office :
 
-- Tous les onglets recensent le contenu existent (excepté les rappoirts vétérinaires - WIP)
+- Tous les onglets recensant le contenu existent (excepté les rappoirts vétérinaires - WIP)
 - Les différents parcours/rôles utilisateurs ne sont pas opérationnels
 - Possibilité de créer un compte/supprimer un compte
 - Les autres fonctionnalités sont en cours de développement
